@@ -1,8 +1,6 @@
 def transpose(matrix):
     matrix[:] = [list(x) for x in zip(*matrix)]
 
-
-
 matrix = [[1]]
 transpose(matrix)
 for line in matrix:
